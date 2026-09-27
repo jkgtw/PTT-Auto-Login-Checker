@@ -393,14 +393,14 @@ Debug 會遮蔽：
 例如每天 06:00：
 
 ```cron
-0 6 * * * /home/ubuntu/dockerdata/autoptt/ptt-check.sh >> /home/ubuntu/dockerdata/autoptt/cron.log 2>&1
+0 6 * * * /path/to/ptt-check.sh >> /path/to/cron.log 2>&1
 ```
 
 如果 cron 的系統時區不是台北，可依環境設定：
 
 ```cron
 CRON_TZ=Asia/Taipei
-0 6 * * * /home/ubuntu/dockerdata/autoptt/ptt-check.sh >> /home/ubuntu/dockerdata/autoptt/cron.log 2>&1
+0 6 * * * /path/to/ptt-check.sh >> /path/to/cron.log 2>&1
 ```
 
 ## Exit code
