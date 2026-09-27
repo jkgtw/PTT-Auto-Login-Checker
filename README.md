@@ -56,7 +56,7 @@ brew install python
 ```bash
 git clone <your-repository-url>
 cd <repository-directory>
-cp .env.example .ptt-check.env
+cp ptt-check.env.example .ptt-check.env
 chmod 600 .ptt-check.env
 chmod 700 ptt-check.sh
 ```
